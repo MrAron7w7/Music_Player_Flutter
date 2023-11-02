@@ -10,6 +10,31 @@ class PlayMusicPage extends StatefulWidget {
 class _PlayMusicPageState extends State<PlayMusicPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      backgroundColor: const Color(0XFF222831),
+      appBar: AppBar(
+        title: const Text('Name Song'),
+        centerTitle: true,
+        backgroundColor: const Color(0XFF222831),
+        elevation: 0,
+        leading: const Icon(
+          Icons.keyboard_arrow_down,
+          size: 30,
+        ),
+      ),
+      body: Column(
+        children: [
+          // Name Song
+
+          // Artis
+
+          // Controllers  share
+
+          // Slider
+
+          // Controller play
+        ],
+      ),
+    );
   }
 }
